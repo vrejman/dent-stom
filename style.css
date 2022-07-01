@@ -1,0 +1,141 @@
+html {
+	scroll-behavior: smooth;
+  }
+body {
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+scroll-behavior: initial;
+}
+header {
+    position: relative;
+	width		: 100%;
+}
+.menu {
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: flex-start;
+margin: 15px;
+}
+li {
+	list-style-type: none;
+	display: inline;
+	padding: 150px;
+	color:rgb(0, 110, 255);
+	font-weight: bold;
+	font-size: 20px;
+	padding-top: 0px;
+	
+}
+h1 {
+	font-size: 70px;
+	color:rgb(37, 59, 178);
+	margin: 5px;
+}
+
+.text{
+	font-size: 25px;
+	color:rgb(37, 59, 178);
+	padding-top: 0px;
+}
+
+.picture {
+	position: absolute;
+    bottom: 300px;
+    left: 70px;
+}
+
+.container {
+	margin:0 auto;
+	padding: 0 15px 15px ;
+}
+	
+h2 {
+	text-align: center;
+	font-size: 35px;
+	color:rgb(37, 59, 178);
+	padding: 25px;
+	background-color:rgb(198, 214, 237);
+}
+
+.about {
+	text-align:justify;
+	font-size:20px;
+}
+
+.prais li {
+	font-size: 50px;
+	text-align:left;
+	display: flex;
+  flex-direction: column;
+  width: 700px;
+  padding: 25px;
+cursor: pointer;
+}
+
+.contacts {
+	font-size: 20px;
+	text-align: center;
+	
+}
+
+.titul-contact {
+
+	color: rgb(37, 59, 178);
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	margin-top: 20px;
+}
+  
+.titul-contact li {
+	font-size: 40px;
+	padding-bottom: 0px;
+	padding-left:140px;
+	text-align: center;
+}
+.titul-contact li:nth-child(2) {
+	padding-left: 160px;
+}
+.contacts-text {
+	font-size: 50px;
+	color: rgb(37, 59, 178);
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	margin: 15px;
+}
+
+.contacts-text li {
+	font-size: 25px;
+	padding-left:80px;
+	padding-right: 130px;
+	color:black;
+	text-align: center;
+}
+.contacts-text li:last-child {
+	padding-left: 140px;
+}
+.contacts-text ul {
+margin: 0px;
+}
+
+details > summary {
+	list-style: none;
+}
+
+details > summary::marker{
+  display: none;
+}
+
+details[open] {
+	transition: 31s;
+}
+
+.therapy {
+	font-size:30px;
+	color: rgb(37, 59, 178);
+	padding-left: 25px;
+}
+
